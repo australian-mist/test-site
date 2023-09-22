@@ -1,0 +1,14 @@
+{% extends "BASE.html" %}
+
+{% block content %}
+
+    <form class="login_form" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="photo">Фото</label>
+            <input type="file" class="from-control-static" id="photo" name="file">
+        </div><br>
+        <button type="submit" class="btn btn-primary">Отправить</button>
+    </form>
+            
+    <br><br><a href="/index">Назад</a>
+{% endblock %}
